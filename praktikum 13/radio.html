@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            background-color: bisque;
+            padding: 2em;
+            border: 4px solid cornsilk;
+            border-radius: 50px;
+            box-shadow: 0 0 10px pink;
+            width: 400px;
+            margin: 100px auto;
+            
+        }
+        no{
+            float: left;
+        }
+
+        input{
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h2>ghiyadhika</h2>
+    
+    <div class="no">
+        <label>Jenis kelamin : </label>
+        <label><input type="radio" name="jenis_kendaraan" value="mobil" /> mobil</label>
+        <label><input type="radio" name="jenis_kendaraan" value="motor" /> motor</label>
+    </div>
+
+    <div class="no">
+        <label>Status : </label>
+        <label><input type="radio" name="status" value="mahasiswa" /> mahasiswa</label>
+        <label><input type="radio" name="status" value="dosen" /> dosen</label>
+    </div>
+    <div class="div">
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+    </div>
+</div>
+</body>
+</html>

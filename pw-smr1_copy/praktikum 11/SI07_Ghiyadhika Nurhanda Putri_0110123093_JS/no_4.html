@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function jumlah(){
+            let a1 = document.getElementById("a_1").value;
+            let a2 = document.getElementById("a_2").value;
+            let hasil = parseInt(a1) + parseInt(a2);
+            console.log( hasil );
+
+            let area_hasil = document.getElementById("hsl");
+            area_hasil.innerHTML = hasil;
+        }
+    </script>
+</head>
+<body>
+    <h1>Penjumlahan Dua Bilangan</h1>
+
+    <input type="number" id="a_1">
+    +
+    <input type="number" id="a_2">
+
+
+    <button onclick="jumlah()">Jumlahkan</button>
+
+    <br>
+
+    <hr>
+
+    <h2>Jawaban :</h2>
+    <span id="hsl"></span>
+</body>
+</html>

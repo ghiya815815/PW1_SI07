@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            font-weight:bold
+        }
+
+        .form-group{
+            margin-bottom: 10px;
+            border-radius: 50px;
+        }
+
+        .form-container{
+            background-color: bisque;
+            padding: 2em;
+            border: 4px solid cornsilk;
+            border-radius: 50px;
+            box-shadow: 0 0 10px pink;
+            width: 300px;
+            margin: 100px auto;
+        }
+
+
+        h2{
+            text-align: center;
+        }
+
+        .container{
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .Simpan{
+            border: 2px solid rgb(148, 119, 83);
+            border-radius: 25px;
+            background: rgb(148, 119, 83);
+            padding: 10px 20px;
+            font-size: 17px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            cursor: pointer;
+            margin: 10px
+
+        }
+        .batal{
+            border: 2px solid rgb(148, 119, 83);
+            border-radius: 25px;
+            background: rgb(148, 119, 83);
+            padding: 10px 20px;
+            font-size: 17px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            cursor: pointer;
+            margin: 10px;
+
+        }
+
+        input{
+            float: right;
+        }
+
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color:darkgray;
+        }
+        .form-group{
+            text-align: left;
+        }
+        select{
+            float: right;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2> FORM ENTRY DATA PEGAWAI</h2>
+        <hr>
+
+    <form action="">
+        <div class="form-group">
+            <label for="nik">NIK</label>
+            <input type="" id="nik">
+        </div>
+
+        <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="" id="nama">
+        </div>
+
+        <div class="form-group">
+            <label for="tempat lahir">Tempat Lahir</label>
+            <input type="name" id="tempat lahir">
+        </div>
+
+        <div class="form-group">
+            <label for="alamat">Alamat</label>
+            <input type="textarea" id="alamat">
+        </div>
+
+        <div class="form-group">
+            <label for="alamat">No Telpon</label>
+            <textarea  type="">alamat</textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="jabatan">Jabatan</label>
+            <select >
+                <option></option>
+                <option>HR</option>
+                <option>Keuangan</option>
+                <option>Manager</option>
+            </select>     
+        </div>
+
+        <div class="form-group">
+            <label for="jabatan">Status</label>
+            <select >
+                <option></option>
+                <option>HR</option>
+                <option>Keuangan</option>
+                <option>Manager</option>
+            </select>     
+        </div>
+
+
+        <div class="container">
+            <button class="Simpan"> Simpan</button>
+            <button class="batal">Batal</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

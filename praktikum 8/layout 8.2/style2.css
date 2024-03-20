@@ -1,0 +1,29 @@
+body{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+header, footer{
+    background-color:wheat;
+    height: 20vh;
+}
+#main{
+    display: flex;
+}
+
+#main aside,
+#main nav{
+    height: 60vh;
+    flex: 0 0 20vw;
+}
+
+#main nav{
+    background-color:darkkhaki;
+}
+#main aside{
+    background-color:darkslategrey;
+}
+
+#main article {
+    flex: 1;
+}

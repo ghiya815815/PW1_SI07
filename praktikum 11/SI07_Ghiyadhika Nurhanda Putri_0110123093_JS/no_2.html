@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hitung Nilai Kurs Dollar</title>
+<script type="text/javascript">
+    function hitung() {
+        let nilai_rupiah = parseInt(document.getElementById("nilai_rupiah").value);
+        let nilai_dollar = nilai_rupiah / 14650;
+        document.getElementById("nilai_dollar").value = nilai_dollar.toFixed(2);
+    }
+</script>
+</head>
+<body>
+<h2>Hitung Nilai Kurs Dollar</h2>
+<form>
+    <label for="nilai_rupiah">Masukkan nilai uang rupiah:</label><br>
+    <input type="text" id="nilai_rupiah" name="nilai_rupiah"><br>
+    <input type="button" value="Hitung Nilai Dollar" onclick="hitung()"><br>
+    <label for="nilai_dollar">Nilai uang dalam dollar:</label><br>
+    <input type="text" id="nilai_dollar" name="nilai_dollar" readonly><br>
+</form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(223, 235, 231);
+    padding: 0%;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+header, footer{
+    background-color: rgb(241, 208, 208);
+    height: 20vh;
+    gap: 26px;
+    text-align:center;
+}
+
+#main{
+    display: flex;
+    gap: 16px;
+}
+
+#main article{
+    
+    background-color: rgb(166, 188, 207);
+    height: 60vh;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    max-width: 74%;
+    padding: 1%;
+    
+    
+}
+#main aside{
+   
+    background-color:rgb(241, 201, 221);
+    height: 60vh;
+    flex: 0 0 20vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1%;
+}
+h2{
+    text-align: center;
+    
+    
+}
+/* Foto Container Styles */
+#foto {
+    text-align: center;
+    display: flex;
+    margin: 15px;
+    height: 40vh;
+    padding: 15px;
+}
+
+img {
+    width: 300px;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+/* Foto Image Styles */

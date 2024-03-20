@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body style="background-color: #f1c37d; text-align: center; padding: 20px;">
+
+    <form action="hasil-pemesanan.html">
+        <fieldset style="background-color: rgb(203, 214, 192); border-radius: 10px; padding: 2rem; width: 50%; margin: 0 auto;">
+            <fieldset style="background-color: #a5885d; border-radius: 10px; padding: 10px; text-align: center;">
+                <table style="margin: 0 auto;">
+                    <tr>
+                        <td><a href="" style="color: #fff; text-decoration: none;">Home</a></td>
+                        <td>|</td>
+                        <td><a href="" style="color: #fff; text-decoration: none;">General Link</a></td>
+                        <td>|</td>
+                        <td><a href="" style="color: #fff; text-decoration: none;">Transaction History</a></td>
+                        <td>|</td>
+                        <td><a href="" style="color: #fff; text-decoration: none;">Policy</a></td>
+                        <td>|</td>
+                        <td><a href="" style="color: #fff; text-decoration: none;">Logout</a></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <table style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td rowspan="5"><img src="asset_porche.jpg" width="150px" alt=""></td>
+                        <td><label for="Name" style="font-weight: bold;">Name Product:</label></td>
+                        <td><input type="text" id="Name" style="width: 100%; outline: none;border: none; border-radius: 5px; padding: 5px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Des" style="font-weight: bold;">Description:</label></td>
+                        <td><textarea id="Des" style="width: 100%; outline: none;border: none; border-radius: 5px; padding: 5px;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Acount" style="font-weight: bold;">Account Number:</label></td>
+                        <td><input type="number" id="Acount" style="width: 100%; outline: none;border: none; border-radius: 5px; padding: 5px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Bank" style="font-weight: bold;">Bank:</label></td>
+                        <td>
+                            <select name="bank" id="bank" style="width: 100%; outline: none;border: none; border-radius: 5px; padding: 5px;">
+                                <option value="BTN">BTN</option>
+                                <option value="BRI">BRI</option>
+                                <option value="BCA">BCA</option>
+                                <option value="BNI">BNI</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Holder" style="font-weight: bold;">Account Holder:</label></td>
+                        <td><input type="text" id="Holder" style="width: 100%; outline: none;border: none; border-radius: 5px; padding: 5px;"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button style="background-color: #a5885d; color: white; padding: 10px; border: none; border-radius: 5px;">
+                                <a href="#" style="text-decoration: none;color: #fff;">Upload Picture</a>
+                            </button>
+                        </td>
+                        <td><label for="Trans" style="font-weight: bold;">Transaction:</label></td>
+                        <td>
+                            <select name="Trans" id="Trans" style="width: 100%; border-radius: 5px; padding: 5px;  outline: none;border: none;">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>* If the Transaction is for 3 person, choose 3 from the drop-down list</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><input type="checkbox" name="stmp" id="stmp">Send to Mobile Phone</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><input type="checkbox" name="ste" id="ste">Send to Email</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label for="stmp" style="font-weight: bold;">Send to Mobile Phone:</label></td>
+                        <td><input type="number" name="" id="" style="width: 100%; border-radius: 5px; padding: 5px; outline: none;border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><label for="ste" style="font-weight: bold;">Send to Email:</label></td>
+                        <td><input type="email" name="" id="" style="width: 100%; border-radius: 5px; padding: 5px; outline: none;border: none;"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><button type="gnl" style="background-color: #d74524; color: white; padding: 10px; border: none; border-radius: 5px; outline: none;border: none;">Generate Nomor Link</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Pizza</title>
+</head>
+<body style="background-color: #f1c37d; text-align: center; padding: 20px;">
+
+<h1 style="color: #ff5733; font-size: 36px;">Domino's Pizza</h1>
+
+<p style="font-size: 18px;">
+    Domino's specialty pizzas offer unique flavor combinations. We aim to provide a diverse and flavorful selection of pizzas. Please note that the specific specialty pizzas available at Domino's may vary by location and can change over time.
+</p>
+
+<hr>
+
+<form action="hasil.html">
+    <table style="margin: 0 auto; text-align: left; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px; padding: 10px;">
+        <thead>
+            <tr>
+                <th colspan="2"><p style="font-size: large;">Your Information</p></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td>: <input type="text" id="name" style="border-radius: 5px; padding: 5px;"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td>: <input type="text" id="address" style="border-radius: 5px; padding: 5px;"></td>
+            </tr>
+            <tr>
+                <td><label for="hp">No Handphone</label></td>
+                <td>: <input type="tel" id="hp" style="border-radius: 5px; padding: 5px;"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>: <input type="email" id="email" style="border-radius: 5px; padding: 5px;"></td>
+            </tr>
+            <tr>
+                <td><label for="description">Delivery Instructions</label></td>
+                <td>: <textarea id="description" style="border-radius: 5px; padding: 5px;"></textarea></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <fieldset style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px; padding: 10px;">
+        <legend><b>Design Your Dream Pizza</b></legend>
+        <h4>Choose your flavor:</h4>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li>
+                <input type="radio" id="filled-mozarella" name="Crust">
+                <label for="filled-mozarella">Filled Mozarella</label>
+            </li>
+            <li>
+                <input type="radio" id="deluxe" name="Flavour">
+                <label for="deluxe">Deluxe</label>
+            </li>
+            <li>
+                <input type="radio" id="hawaiian" name="Crust">
+                <label for="hawaiian">Hawaiian</label>
+            </li>
+            <li>
+                <input type="radio" id="chicken-bacon" name="Crust">
+                <label for="chicken-bacon">Chicken Bacon Ranch</label>
+            </li>
+            <li>
+                <input type="radio" id="bbq-chicken" name="Crust">
+                <label for="bbq-chicken">Memphis BBQ Chicken Lovers</label>
+            </li>
+        </ul>
+
+        <h4>Toppings (Choose as many as you want):</h4>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li>
+                <input type="checkbox" id="white-sauce">
+                <label for="white-sauce">White Sauce</label>
+            </li>
+            <li>
+                <input type="checkbox" id="mozarella">
+                <label for="mozarella">Mozarella Cheese</label>
+            </li>
+            <li>
+                <input type="checkbox" id="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+            </li>
+            <li>
+                <input type="checkbox" id="mushrooms">
+                <label for="mushrooms">Mushrooms</label>
+            </li>
+            <li>
+                <input type="checkbox" id="peppers">
+                <label for="peppers">Peppers</label>
+            </li>
+            <li>
+                <input type="checkbox" id="anchovies">
+                <label for="anchovies">Anchovies</label>
+            </li>
+            <li>
+                <input type="checkbox" id="pineapple">
+                <label for="pineapple">Pineapple</label>
+            </li>
+        </ul>
+
+        <h4>Number</h4>
+        <label for="count">How many Pizzas: </label>
+        <input type="number" id="count" style="border-radius: 5px; padding: 5px;">
+
+        <hr>
+
+        <h4>Favorite Size</h4>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li>
+                <input type="radio" id="small" name="Size">
+                <label for="small">Small</label>
+            </li>
+            <li>
+                <input type="radio" id="medium" name="Size">
+                <label for="medium">Medium</label>
+            </li>
+            <li>
+                <input type="radio" id="large" name="Size">
+                <label for="large">Large</label>
+            </li>
+        </ul>
+
+        <button type="submit" style="background-color: #ff5733; color: white; padding: 10px; border: none; border-radius: 5px; margin-right: 10px;">Order</button>
+        <button type="reset" style="background-color: #333; color: white; padding: 10px; border: none; border-radius: 5px;">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
+    
